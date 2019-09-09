@@ -15,6 +15,9 @@ class ViewController: UIViewController {
 		// Do any additional setup after loading the view, typically from a nib.
 	}
 
-
+	@IBAction func buttonDidTouch(_ sender: Any) {
+		print("Hi")
+	}
+	
 }
 
